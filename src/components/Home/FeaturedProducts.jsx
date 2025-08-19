@@ -1,8 +1,6 @@
 // src/sections/FeaturedProducts.jsx
 import React from "react";
 import ProductCard from "../shared/common/ProductCard";
-import perfume1 from "../../assets/perfume.png";
-import perfume2 from "../../assets/perfume.webp";
 
 
 

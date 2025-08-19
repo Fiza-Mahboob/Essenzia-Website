@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutHero from '../components/About/AboutHero'
 import OurStory from '../components/About/OurStory'
-import BestSellers from '../components/About/BestSellers'
 import MissionVision from '../components/About/MissionVision'
 import OurProcess from '../components/About/OurProcess'
 import MeetOurTeam from '../components/About/MeetOurTeam'
