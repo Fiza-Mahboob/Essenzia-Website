@@ -13,7 +13,7 @@ const InstagramFeed = () => {
     "/media/images/p8.jpg",
     "/media/images/p9.jpg",
     "/media/images/p10.jpg",
-  ]; // Add your own images here
+  ]; 
 
   return (
     <section className="w-full pt-2 pb-20 px-4 sm:px-8 md:px-16 bg-white dark:bg-bg-dk">

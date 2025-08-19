@@ -79,8 +79,8 @@ const Navbar = () => {
 
             <Link to="/wishlist" className="relative text-2xl text-text-primary dark:text-white hover:text-gold dark:hover:text-accent-dk">
               <FiHeart />
-              <span className="absolute -top-2 -right-2 text-sm bg-gold dark:bg-accent-dk text-white rounded-full px-1">
-                2
+              <span className="absolute -top-2 -right-2 text-sm bg-gold dark:bg-accent-dk text-gold rounded-full px-1 ">
+                
               </span>
             </Link>
 
