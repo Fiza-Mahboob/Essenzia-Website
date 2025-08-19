@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import perfumeImage from '../../assets/perfume.png';
+import perfumeImage from '../../assets/Perfume.png';
 const containerVariants = {
   hidden: {},
   visible: {
