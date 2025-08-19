@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@keyframes fade-in-out {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10%, 90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.animate-fade-in-out {
+  animation: fade-in-out 3s ease-in-out forwards;
+}
+
+@theme {
+  --color-hero-bg: #DCCFC0;   /* Slightly darker ivory for hero */
+  --color-bg-light: #EDEAE2;  /*Ivory*/ 
+  --color-gold:   #948979;      /*Used for background of butoons on hover links imp headings highlights*/       
+  --color-text-primary: #2D2D2D;   /*Deep charcoal, readable*/
+  --color-text-secondary: #6F6F6F; /*For descriptions*/
+  --color-accent: #A2AF9B;  /*Calming sage green*/
+  --color-card-b: #DCCFC0;
+  --color-divider: #EEEEEE;
+  --color-ui-bg: #FAF9EE;
+  --color-accent-dk: #8D9C87;
+--color-card:#F7F5F1;
+
+
+  --color-bg-dark: #222831;
+  --color-bg-dk: #393E46;
+  --color-text-dark: #DFD0B8;
+  --color-accent-dark: #948979;
+
+  --color-divider-dark: #3A3A3A;
+
+  --color-white: #ffffff;        
+
+
+
+}
