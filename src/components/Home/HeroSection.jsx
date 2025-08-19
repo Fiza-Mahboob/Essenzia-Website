@@ -78,7 +78,7 @@ const HeroSection = () => {
           <motion.img
             src={perfumeImage}
             alt="Essenzia Perfume"
-            className="w-full max-w-md mx-auto drop-shadow-2xl scale-130"
+            className="w-full max-w-md mx-auto drop-shadow-2xl scale-130 sm:hidden"
             whileHover={{ rotate: [0, 1, -1, 0], scale: 1.05 }}
             animate={{
               y: [0, -8, 0],
